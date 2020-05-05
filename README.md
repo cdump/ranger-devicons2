@@ -3,6 +3,10 @@ Adds an icon and type (like `ls -F`) to the ranger's file list
 
 ![screenshot](./screenshot.png)
 
+## Why, if ranger-devicons already exists?
+- simple sync with vim-devicons: gen_icons.sh
+- not only exact match, but also pattern_match (ex: `.*vimrc.*`)
+- show "type symbol" (like `ls -F`)
 
 ## Installation
 1. Install a [Nerd Font compatible font](https://github.com/ryanoasis/nerd-fonts#font-installation) or [patch your own](https://github.com/ryanoasis/nerd-fonts#font-patcher), then set your terminal font

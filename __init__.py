@@ -11,7 +11,7 @@ from .icons import file_node_extensions, file_node_exact_matches, file_node_patt
 def get_icon(file):
     basename = os.path.basename(file.relative_path)
 
-    em_icon = file_node_exact_matches.get(basename)
+    em_icon = file_node_exact_matches.get(basename.lower())
     if em_icon is not None:
         return em_icon
 
