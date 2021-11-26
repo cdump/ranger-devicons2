@@ -38,6 +38,7 @@ file_node_extensions = {
          'yaml'     : '',
          'toml'     : '',
          'bat'      : '',
+         'mk'       : '',
          'jpg'      : '',
          'jpeg'     : '',
          'bmp'      : '',
@@ -118,7 +119,8 @@ file_node_extensions = {
          'xcplayground' : '',
          'tex'      : 'ﭨ',
          'r'        : 'ﳒ',
-         'rproj'    : '鉶'
+         'rproj'    : '鉶',
+         'sol'      : 'ﲹ'
         }
 file_node_exact_matches = {
          'exact-match-case-sensitive-1.txt' : '1',
@@ -138,6 +140,8 @@ file_node_exact_matches = {
          '.gitlab-ci.yml'                   : '',
          '.bashrc'                          : '',
          '.zshrc'                           : '',
+         '.zshenv'                          : '',
+         '.zprofile'                        : '',
          '.vimrc'                           : '',
          '.gvimrc'                          : '',
          '_vimrc'                           : '',
