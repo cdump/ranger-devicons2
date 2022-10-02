@@ -105,6 +105,7 @@ file_node_extensions = {
          'exs'      : '',
          'eex'      : '',
          'leex'     : '',
+         'heex'     : '',
          'vim'      : '',
          'ai'       : '',
          'psd'      : '',
@@ -120,7 +121,8 @@ file_node_extensions = {
          'tex'      : 'ﭨ',
          'r'        : 'ﳒ',
          'rproj'    : '鉶',
-         'sol'      : 'ﲹ'
+         'sol'      : 'ﲹ',
+         'pem'      : ''
         }
 file_node_exact_matches = {
          'exact-match-case-sensitive-1.txt' : '1',
@@ -158,7 +160,8 @@ file_node_exact_matches = {
          'config.ru'                        : '',
          'gemfile'                          : '',
          'makefile'                         : '',
-         'cmakelists.txt'                   : ''
+         'cmakelists.txt'                   : '',
+         'robots.txt'                       : 'ﮧ'
         }
 file_node_pattern_matches = {
          '.*jquery.*.js$'       : '',
