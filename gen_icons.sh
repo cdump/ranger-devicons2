@@ -10,7 +10,11 @@ curl -o icons-default.lua -s ${SRC_URL}
 cat <<EOF | lua > icons.py
 local function p(name, d)
     print(name .. ' = {')
-    for k, v in pairs(d) do
+    local keys = {}
+    for k in pairs(d) do table.insert(keys, k) end
+    table.sort(keys)
+    for _, k in ipairs(keys) do
+        local v = d[k]
         print("  '" .. k .. "': '" .. v.icon .. "',")
     end
     print('}')
